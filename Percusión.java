@@ -4,6 +4,6 @@ public class Percusión {
     String dueñoPercusion;
     char tamanioPercusion;
     boolean sonidoPercusion;
-    //prueba
+    //prueba2
    
 }
