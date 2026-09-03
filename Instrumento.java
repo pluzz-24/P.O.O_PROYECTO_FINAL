@@ -1,3 +1,8 @@
 public class Instrumento {
-    //prueba 2
-}
+
+    private String nombreInstrumento;
+    private int anioFabricacion;
+    private double precioInstrumento;
+    private boolean esElectricoInstrumento;
+
+}   

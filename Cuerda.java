@@ -1,8 +1,10 @@
-public class Cuerda {
+public class Cuerda extends Instrumento {
     
-    byte numeroDeCuerdas;
-    double precioCuerda;
-    String instrumentoCuerda;
-    //prueba2
+    private byte numeroDeCuerdas;
+    private double precioCuerda;
+    private String instrumentoCuerda;
+    private boolean tieneTrasteCuerda;
+
+    public Cuerda (S)
 
 }

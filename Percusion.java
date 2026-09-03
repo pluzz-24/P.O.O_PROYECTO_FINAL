@@ -1,9 +1,8 @@
-public class Percusión {
+public class Percusion extends Instrumento{
 
     double precioPercusion;
     String dueñoPercusion;
     char tamanioPercusion;
     boolean sonidoPercusion;
-    //prueba2
    
 }
