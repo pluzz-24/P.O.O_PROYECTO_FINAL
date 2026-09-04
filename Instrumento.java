@@ -5,12 +5,21 @@ public class Instrumento {
     private double precioInstrumento;
     private boolean esElectricoInstrumento;
 
+    //CONSTRUCTORES
+
     public Instrumento(String nombreInstrumento, int anioFabricacion, double precioInstrumento, boolean esElectricoInstrumento){
 
         this.nombreInstrumento = nombreInstrumento;
         this.anioFabricacion = anioFabricacion;
         this.precioInstrumento = precioInstrumento;
         this.esElectricoInstrumento = esElectricoInstrumento;
+    }
+
+    public Instrumento (String nombreInstrumento, double precioInstrumento){
+        this(nombreInstrumento, 2024, precioInstrumento,false );
+    }
+    public Instrumento (int anioFabricacion, boolean esElectricoInstrumento){
+        this("Saxofon tenor", anioFabricacion, 5000000, esElectricoInstrumento);
     }
 
     //GETTERS
@@ -44,4 +53,5 @@ public class Instrumento {
         this.esElectricoInstrumento = esElectricoInstrumento;
     }
 
+    
 }   
