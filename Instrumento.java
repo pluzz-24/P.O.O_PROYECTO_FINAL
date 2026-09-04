@@ -53,5 +53,11 @@ public class Instrumento {
         this.esElectricoInstrumento = esElectricoInstrumento;
     }
 
-    
+    @Override
+    public String toString(){
+        return "Instrumento: " + nombreInstrumento + "\n" +
+        "Año de fabricación: " + anioFabricacion + "\n" +
+        "Precio del instrumento: " + precioInstrumento + "\n" +
+        "El instrumento es electrico: " + esElectricoInstrumento+ "\n"; 
+    }
 }   
