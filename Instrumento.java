@@ -13,17 +13,35 @@ public class Instrumento {
         this.esElectricoInstrumento = esElectricoInstrumento;
     }
 
-    String getNombreInstrumento(){
+    //GETTERS
+
+    public String getNombreInstrumento(){
         return nombreInstrumento;
     }
-    int getAnioFabricacion(){
+    public int getAnioFabricacion(){
         return anioFabricacion;
     }
-    double getPrecioInstrumento(){
+    public double getPrecioInstrumento(){
         return precioInstrumento;
     }
-    boolean getEsElectricoInstrumento(){
+    public boolean getEsElectricoInstrumento(){
         return esElectricoInstrumento;
+    }
+
+
+    //SETTERS
+
+    public void setNombreInstrumento(String nombreInstrumento){
+        this.nombreInstrumento = nombreInstrumento;
+    }
+    public void setAnioFabricacion (int anioFabricacion){
+        this.anioFabricacion = anioFabricacion;
+    }
+    public void setPrecioInstrumento(double precioInstrumento){
+        this.precioInstrumento = precioInstrumento;
+    }
+    public void setEsElectricoInstrumento(boolean esElectricoInstrumento){
+        this.esElectricoInstrumento = esElectricoInstrumento;
     }
 
 }   
