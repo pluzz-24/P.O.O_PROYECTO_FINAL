@@ -65,5 +65,19 @@ public class Cuerda extends Instrumento{
             this.tieneTrasteCuerda = tieneTrasteCuerda;
         }
 
+    @Override
+    public String toString(){
+        return "Instrumento: " + getNombreInstrumento() + "\n" +
+        "Año de fabricación: " + getAnioFabricacion() + "\n" +
+        "Precio del instrumento: " + getPrecioInstrumento() + "\n" +
+        "El instrumento es electrico: " + getEsElectricoInstrumento() + "\n" +
+        "Instrumento de cuerda: " + instrumentoCuerda + "\n" +
+        "Precio instrumento de cuerda: " + precioCuerda + "\n" +
+        "Numero de cuerdas: " + numeroDeCuerdas + "\n" +
+        "Tiene trastes: " + tieneTrasteCuerda;
+    }
+
+
+
  
 }
