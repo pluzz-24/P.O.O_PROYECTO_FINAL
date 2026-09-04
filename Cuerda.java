@@ -49,4 +49,21 @@ public class Cuerda extends Instrumento{
         public boolean getTieneTrasteCuerda(){
             return tieneTrasteCuerda;
         }
+
+        //SETTERS
+
+        public void setNumeroDeCuerdas(byte numeroDeCuerdas){
+            this.numeroDeCuerdas = numeroDeCuerdas;
+        }
+        public void setPrecioCuerda(double precioCuerda){
+            this.precioCuerda = precioCuerda;
+        }
+        public void setInstrumentoCuerda(String instrumentoCuerda){
+            this.instrumentoCuerda = instrumentoCuerda;
+        }
+        public void setTieneTrasteCuerda (boolean tieneTrasteCuerda){
+            this.tieneTrasteCuerda = tieneTrasteCuerda;
+        }
+
+ 
 }
