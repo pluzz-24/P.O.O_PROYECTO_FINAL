@@ -35,5 +35,18 @@ public class Cuerda extends Instrumento{
 
         }
 
-        
+        //GETTERS
+
+        public byte getNumeroDeCuerdas(){
+            return numeroDeCuerdas;
+        }
+        public double getPrecioCuerda(){
+            return precioCuerda;
+        }
+        public String getInstrumentoCuerda(){
+            return instrumentoCuerda;
+        }
+        public boolean getTieneTrasteCuerda(){
+            return tieneTrasteCuerda;
+        }
 }
