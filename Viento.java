@@ -64,7 +64,18 @@
             this.caniaViento = caniaViento;
         }
 
-        
+    @Override
+    public String toString(){
+        return "Instrumento: " + getNombreInstrumento() + "\n" +
+        "Año de fabricación: " + getAnioFabricacion() + "\n" +
+        "Precio del instrumento: " + getPrecioInstrumento() + "\n" +
+        "El instrumento es electrico: " + getEsElectricoInstrumento() + "\n" +
+        "Instrumento de viento: " + instrumentoViento + "\n" +
+        "Precio instrumento de viento: " + precioViento + "\n" +
+        "Numero de botones: " + numeroBotonesViento + "\n" +
+        "Caña: " + caniaViento;
+
+
 
 
 
