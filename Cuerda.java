@@ -77,7 +77,4 @@ public class Cuerda extends Instrumento{
         "Tiene trastes: " + tieneTrasteCuerda;
     }
 
-
-
- 
 }
