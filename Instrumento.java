@@ -56,8 +56,8 @@ public class Instrumento {
     @Override
     public String toString(){
         return "Instrumento: " + nombreInstrumento + "\n" +
-        "Año de fabricación: " + anioFabricacion + "\n" +
-        "Precio del instrumento: " + precioInstrumento + "\n" +
+        "Anio de fabricacion: " + anioFabricacion + "\n" +
+        "Precio del instrumento: " + precioInstrumento + " pesos \n" +
         "El instrumento es electrico: " + esElectricoInstrumento+ "\n"; 
     }
 }   

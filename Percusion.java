@@ -19,15 +19,15 @@ public class Percusion extends Instrumento{
     }
 
     public Percusion(double precioPercusion, char tamanioPercusion){
-        super("Bateria", 2025, 3000000, false);
+        super("De percusion", 2025, 3000000, false);
         this.precioPercusion = precioPercusion;
-        this.duenioPercusion = "Pepito Pérez";
+        this.duenioPercusion = "Pepito Perez";
         this.tamanioPercusion = tamanioPercusion;
         this.sonidoPercusion = true;
     }
 
     public Percusion(String duenioPercusion, boolean sonidoPercusion){
-        super("Bateria", 2025, 3000000, false);
+        super("De percusion", 2025, 3000000, false);
         this.precioPercusion = 3000000;
         this.duenioPercusion = duenioPercusion;
         this.tamanioPercusion = 2;
@@ -67,11 +67,11 @@ public class Percusion extends Instrumento{
      @Override
     public String toString(){
         return "Instrumento: " + getNombreInstrumento() + "\n" +
-        "Año de fabricación: " + getAnioFabricacion() + "\n" +
-        "Precio del instrumento: " + getPrecioInstrumento() + "\n" +
+        "Anio de fabricacion: " + getAnioFabricacion() + "\n" +
+        "Precio del instrumento: " + getPrecioInstrumento() + "pesos \n" +
         "El instrumento es electrico: " + getEsElectricoInstrumento() + "\n" +
-        "El dueño del instrumento de percusion es: " + duenioPercusion + "\n" +
-        "El tamaño del ihnstrumento de percusion es: " + tamanioPercusion + "metros \n" +
+        "El duenio del instrumento de percusion es: " + duenioPercusion + "\n" +
+        "El tamanio del instrumento de percusion es: " + tamanioPercusion + "\n" +
         "El sonido de la percusion: " + sonidoPercusion;
 }
 }

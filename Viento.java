@@ -19,15 +19,15 @@
         }
 
         public Viento(String instrumentoViento, int numeroBotonesViento){
-            super("Trompeta", 2026, 600000, false);
+            super("De viento", 2026, 600000, false);
             this.instrumentoViento = instrumentoViento;
             this.precioViento = 600000;
-            this.numeroBotonesViento ? numeroBotonesViento;
+            this.numeroBotonesViento = numeroBotonesViento;
             this.caniaViento = false;
         }
 
         public Viento(double precioViento, boolean caniaViento){
-            super("Trompeta", 2026, 600000, false);
+            super("De viento", 2026, 600000, false);
             this.instrumentoViento = "Trompeta";
             this.precioViento = precioViento;
             this.numeroBotonesViento = 3;
@@ -67,20 +67,11 @@
     @Override
     public String toString(){
         return "Instrumento: " + getNombreInstrumento() + "\n" +
-        "Año de fabricación: " + getAnioFabricacion() + "\n" +
-        "Precio del instrumento: " + getPrecioInstrumento() + "\n" +
+        "Anio de fabricacion: " + getAnioFabricacion() + "\n" +
         "El instrumento es electrico: " + getEsElectricoInstrumento() + "\n" +
         "Instrumento de viento: " + instrumentoViento + "\n" +
         "Precio instrumento de viento: " + precioViento + "\n" +
         "Numero de botones: " + numeroBotonesViento + "\n" +
-        "Caña: " + caniaViento;
-
-
-
-
-
-
-            
-
+        "Cania: " + caniaViento;
 }
-
+    }

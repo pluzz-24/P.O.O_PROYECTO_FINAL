@@ -7,32 +7,31 @@ public class Cuerda extends Instrumento{
 
     //CONSTRUCTORES
 
-    public Cuerda(String nombreInstrumento, int anioFabricacion, double precioInstrumento, boolean esElectricoInstrumento, byte numeroDeCuerdas,
+    public Cuerda(String nombreInstrumento, int anioFabricacion, double precioInstrumento, boolean esElectricoInstrumento, int numeroDeCuerdas,
         double precioCuerda, String instrumentoCuerda, boolean tieneTrasteCuerda){
 
           super(nombreInstrumento, anioFabricacion, precioInstrumento, esElectricoInstrumento);
 
-                this.numeroDeCuerdas = numeroDeCuerdas;
+                this.numeroDeCuerdas = (byte) numeroDeCuerdas;
                 this.precioCuerda = precioCuerda;
                 this.instrumentoCuerda = instrumentoCuerda;
                 this.tieneTrasteCuerda = tieneTrasteCuerda; 
         }
         
         public Cuerda(byte numeroDeCuerdas, String instrumentoCuerda){
-            super("Guitarra", 2022, 500000, true);
+            super("De cuerda", 2022, 500000, true);
             this.numeroDeCuerdas = numeroDeCuerdas;
             this.precioCuerda = 500000;
             this.instrumentoCuerda = instrumentoCuerda;
             this.tieneTrasteCuerda = true;
         }
-        
+
         public Cuerda(double precioCuerda, String instrumentoCuerda){
-            super("Guitarra", 2022, 500000, true);
+            super("De cuerda", 2022, 500000, true);
             this.numeroDeCuerdas = 6;
             this.precioCuerda = precioCuerda;
             this.instrumentoCuerda = instrumentoCuerda;
             this.tieneTrasteCuerda = false;
-
         }
 
         //GETTERS
@@ -68,11 +67,10 @@ public class Cuerda extends Instrumento{
     @Override
     public String toString(){
         return "Instrumento: " + getNombreInstrumento() + "\n" +
-        "Año de fabricación: " + getAnioFabricacion() + "\n" +
-        "Precio del instrumento: " + getPrecioInstrumento() + "\n" +
+        "Anio de fabricacion: " + getAnioFabricacion() + "\n" +
         "El instrumento es electrico: " + getEsElectricoInstrumento() + "\n" +
         "Instrumento de cuerda: " + instrumentoCuerda + "\n" +
-        "Precio instrumento de cuerda: " + precioCuerda + "\n" +
+        "Precio instrumento de cuerda: " + precioCuerda + " pesos \n" +
         "Numero de cuerdas: " + numeroDeCuerdas + "\n" +
         "Tiene trastes: " + tieneTrasteCuerda;
     }
