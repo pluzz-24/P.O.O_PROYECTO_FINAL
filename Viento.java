@@ -39,7 +39,7 @@
         public String getInstrumentoViento(){
             return instrumentoViento;
         }
-        public double getPrecioInstrumento(){
+        public double getPrecioViento(){
             return precioViento;
         }
         public int getNumeroBotonesViento(){
@@ -48,6 +48,24 @@
         public boolean getCaniaViento(){
             return caniaViento;
         }
+
+        //SETTERS
+
+        public void setInstrumentoViento(String instrumentoViento){
+            this.instrumentoViento = instrumentoViento;
+        }
+        public void setPrecioViento(double precioViento){
+            this.precioViento = precioViento;
+        }
+        public void setNumeroBotonesViento(int numeroBotonesViento){
+            this.numeroBotonesViento = numeroBotonesViento;
+        }
+        public void setCaniaViento(boolean caniaViento){
+            this.caniaViento = caniaViento;
+        }
+
+        
+
 
 
 
