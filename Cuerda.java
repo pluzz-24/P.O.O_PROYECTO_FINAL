@@ -25,7 +25,7 @@ public class Cuerda extends Instrumento{
             this.instrumentoCuerda = instrumentoCuerda;
             this.tieneTrasteCuerda = true;
         }
-
+        
         public Cuerda(double precioCuerda, String instrumentoCuerda){
             super("Guitarra", 2022, 500000, true);
             this.numeroDeCuerdas = 6;
