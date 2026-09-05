@@ -34,7 +34,20 @@
             this.caniaViento = caniaViento;
         }
 
-        
+        //GETTERS
+
+        public String getInstrumentoViento(){
+            return instrumentoViento;
+        }
+        public double getPrecioInstrumento(){
+            return precioViento;
+        }
+        public int getNumeroBotonesViento(){
+            return numeroBotonesViento;
+        }
+        public boolean getCaniaViento(){
+            return caniaViento;
+        }
 
 
 
